@@ -33,6 +33,21 @@ in a live preview first — you review it, adjust the view if you like, then sav
 You can also **reload** a `.tek11801` waveform or variable-persistence file you
 saved earlier and re-preview or re-export it — no instrument required.
 
+![Hardcopy capture preview](.github/screenshots/tek11801CaptureScr1.png)
+*Hardcopy — raster screenshot streamed directly from the instrument*
+
+![Plotter capture preview](.github/screenshots/tek11801CaptureScr2.png)
+*Plotter — vector HP-GL hardcopy rendered on the host*
+
+![Waveform capture with cursors](.github/screenshots/tek11801CaptureScr3.png)
+*Waveform — interactive plot with time cursors and measurements*
+
+![Variable Persistence scatter](.github/screenshots/tek11801CaptureScr4.png)
+*Variable Persistence — density scatter of accumulated persistence curves*
+
+![Color Graded 16-bit lossless](.github/screenshots/tek11801CaptureScr5.png)
+*Color Graded — 16-bit pixel-bin matrix with graticule overlay*
+
 ## Requirements
 
 - **Windows 10 or Windows 11** (64-bit).
