@@ -66,7 +66,7 @@ saved earlier and re-preview or re-export it — no instrument required.
 
 Two options are provided:
 
-- **`Tek11801Capture-Setup-1.0.0.0.exe`** — the installer. Run it and follow the
+- **`Tek11801Capture-Installer-1.0.0.0.exe`** — the installer. Run it and follow the
   prompts. Recommended for most users.
 - **`Tek11801Capture-1.0.0.0.zip`** — a portable build. Unzip anywhere and run
   `Tek11801Capture.exe`. Keep all the files in the zip together in the same
@@ -104,13 +104,13 @@ Saved files are named automatically, e.g.
 
 ## File formats at a glance
 
-| Capture | Native / lossless | Image |
-|---|---|---|
-| Hardcopy | — | PNG, TIFF, JPG |
-| Plotter | `.plt` (HP-GL) | PNG, TIFF, JPG |
-| Waveform | `.tek11801` (raw data) | PNG, TIFF, JPG |
-| Variable Persistence | `.tek11801` (raw data) | PNG, TIFF, JPG |
-| Color Graded | PNG-16, TIFF-16 (16-bit lossless) | PNG-8, TIFF-8, JPG |
+| Capture              | Native / lossless                 | Image              |
+| -------------------- | --------------------------------- | ------------------ |
+| Hardcopy             | —                                 | PNG, TIFF, JPG     |
+| Plotter              | `.plt` (HP-GL)                    | PNG, TIFF, JPG     |
+| Waveform             | `.tek11801` (raw data)            | PNG, TIFF, JPG     |
+| Variable Persistence | `.tek11801` (raw data)            | PNG, TIFF, JPG     |
+| Color Graded         | PNG-16, TIFF-16 (16-bit lossless) | PNG-8, TIFF-8, JPG |
 
 `.tif`, `.plt`, and `.png`/`.tiff`/`.jpg` files open in any standard image or
 plot viewer. `.tek11801` is this tool's own lossless data format and can be
